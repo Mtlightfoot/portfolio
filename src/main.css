@@ -24,22 +24,22 @@
     color: #7B7A6F;
     font-weight: 700;
     letter-spacing: 0.5px;
+    border: 1px solid transparent;
+    border-radius: 3px;
 }
 
 #navLink:hover {
     transition: 0.2s;
     color: #E3E0D3;
     background-color: #1E1E1E;
-    border: 1px solid #e3e0d37a;
-    border-radius: 2px;
+    border: 2px solid #e3e0d37a;
 }
 
 #navLink.active {
     font-weight: 700;
-    border: 1px solid #e3e0d37a;
+    border: 2px solid #e3e0d37a;
     color: #E3E0D3;
     background-color: #1E1E1E;
-    border-radius: 2px;
 }
 
 #homeContainer {
@@ -74,7 +74,29 @@
     border-radius: 25px;
 }
 
-#rightColumn {
+#socialIcons {
+    width: 20%;
+    margin-right: 3px;
+}
+
+#socialIcons:hover {
+    filter: brightness(200%);
+}
+
+#cvBtn {
+    background-color: transparent;
+    border: 3px solid #CCCABD;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #CCCABD;
+}
+
+#cvBtn:hover {
+    filter: brightness(200%);
+    background-color: #1E1E1E;
+    transition: 0.2s;
 }
 
 .footer {
