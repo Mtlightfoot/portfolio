@@ -28,12 +28,12 @@ function NavBar() {
     return (
         <Navbar expand="lg" className="bg-body-tertiary" style={styles.navBar} id="navbar-bg">
             <Container>
-                <LinkContainer to='/'>
+                {/* <LinkContainer to='/'>
                     <Navbar.Brand><h2 id="main-title">Matt Lightfoot</h2><h6 style={styles.subtitle}>Front End Web Developer - 07801 963340</h6></Navbar.Brand>
-                </LinkContainer>
+                </LinkContainer> */}
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto">
+                    <Nav className="m-auto">
                         <LinkContainer to='/'>
                             <Nav.Link id="navLink">Home</Nav.Link>
                         </LinkContainer>

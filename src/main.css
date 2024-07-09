@@ -4,7 +4,10 @@
 
 * {
     font-family: "Montserrat", sans-serif;
-    background-color: #1E1E1E;
+}
+
+#webpage {
+    background-color: #181818;
 }
 
 #main-title {
@@ -20,17 +23,58 @@
 #navLink {
     color: #7B7A6F;
     font-weight: 700;
+    letter-spacing: 0.5px;
 }
 
 #navLink:hover {
     transition: 0.2s;
     color: #E3E0D3;
+    background-color: #1E1E1E;
+    border: 1px solid #e3e0d37a;
+    border-radius: 2px;
 }
 
 #navLink.active {
     font-weight: 700;
-    border-bottom: 0.5px solid #E3E0D3;
+    border: 1px solid #e3e0d37a;
     color: #E3E0D3;
+    background-color: #1E1E1E;
+    border-radius: 2px;
+}
+
+#homeContainer {
+}
+
+#homeRow {
+    min-height: 90vh;
+}
+
+#leftColumn {
+    color: #E9EAE2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profileName {
+    display: flex;
+    align-items: center;
+    color: #E3E0D3;
+}
+
+#profilePicture {
+    width: 100%;
+    border-radius: 35px;
+}
+
+#columnBox {
+    padding: 30px;
+    height: 100%;
+    border-radius: 25px;
+}
+
+#rightColumn {
 }
 
 .footer {
@@ -38,4 +82,5 @@
     color: white;
     margin: 0;
     padding: 10px;
+    font-size: 12px;
 }
