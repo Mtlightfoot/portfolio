@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    background-color: #1E1E1E;
+}
+
+#main-title {
+    color: #E9EAE2;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar-bg {
+    background-color: transparent !important;
+}
+
+#navLink {
+    color: #7B7A6F;
+    font-weight: 700;
+}
+
+#navLink:hover {
+    transition: 0.2s;
+    color: #E3E0D3;
+}
+
+#navLink.active {
+    font-weight: 700;
+    border-bottom: 0.5px solid #E3E0D3;
+    color: #E3E0D3;
+}
+
+.footer {
+    background-color: transparent;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
