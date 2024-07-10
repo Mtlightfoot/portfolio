@@ -28,14 +28,14 @@ const styles = {
         fontWeight: '900'
     },
     slogan: {
-        fontSize: '70px',
+        fontSize: '5vw',
         fontWeight: "900",
         color: '#E3E0D3'
     },
     skills: {
         color: "#7D7C70",
         fontWeight: '600',
-        fontSize: '40px',
+        fontSize: '2.7vw',
     }
 }
 
@@ -75,10 +75,8 @@ function Home() {
 
                     <div style={styles.rightColumn} id='columnBox'>
                         <div>
-                            <h1 style={styles.slogan} >I'm Matt Lightfoot
-                                <br></br>
-                                Front End Web Developer.</h1>
-                            <h1 style={styles.skills}>HTML - CSS - JavaScript - React.js - JQuery - Node.js - APIs - Bootstrap - Material UI</h1>
+                            <h1 style={styles.slogan} >I'm Matt Lightfoot Front End Web Developer.</h1>
+                            <h1 style={styles.skills}>HTML - CSS - JavaScript - React.js - JQuery - Node.js - APIs - Bootstrap - Material UI - Wordpress</h1>
                         </div>
                         <div>
                             <a href='https://docs.google.com/document/d/1VZxcRjzsV2ZTtb0msm2PhW421wem9iupoWJ9Ka_OO4I/edit'><Button id='cvBtn'>Download CV</Button></a>
