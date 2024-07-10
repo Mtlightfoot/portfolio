@@ -129,4 +129,8 @@
     #skills {
         font-size: 30px;
     }
+
+    #columnBox {
+        padding: 0px;
+    }
 }
