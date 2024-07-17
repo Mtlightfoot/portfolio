@@ -1,0 +1,42 @@
+.loader {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.loader:before {
+    content: "";
+    height: 25px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+        radial-gradient(farthest-side, #706f65 95%, #0000) 35% 35%/6px 6px no-repeat #E3E0D3;
+    animation: l5 6s infinite;
+}
+
+@keyframes l5 {
+
+    0%,
+    11% {
+        background-position: 35% 35%
+    }
+
+    14%,
+    36% {
+        background-position: 65% 35%
+    }
+
+    38%,
+    61% {
+        background-position: 65% 65%
+    }
+
+    64%,
+    86% {
+        background-position: 35% 65%
+    }
+
+    88%,
+    100% {
+        background-position: 35% 35%
+    }
+}

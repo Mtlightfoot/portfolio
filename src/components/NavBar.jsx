@@ -38,12 +38,12 @@ function NavBar() {
                             <Nav.Link id="navLink">Home</Nav.Link>
                         </LinkContainer>
 
-                        <LinkContainer to='/Projects'>
-                            <Nav.Link id="navLink">Projects</Nav.Link>
+                        <LinkContainer to='/AboutMe'>
+                            <Nav.Link id="navLink">About Me</Nav.Link>
                         </LinkContainer>
 
-                        <LinkContainer to='/MyWork'>
-                            <Nav.Link id="navLink">My Work</Nav.Link>
+                        <LinkContainer to='/Projects'>
+                            <Nav.Link id="navLink">Projects</Nav.Link>
                         </LinkContainer>
 
                         <LinkContainer to='/ContactMe'>

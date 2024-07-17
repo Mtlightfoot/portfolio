@@ -120,9 +120,31 @@
 #projectCard {
     background-image: url('./endless-constellation.svg');
     color: #1E1E1E;
-    min-height: 70vh;
+    height: 70vh;
     text-align: center;
     margin: 10px;
+    border: none;
+}
+
+#card-img-top {
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#project-title {
+    color: #706f65 !important;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: left;
+    padding: 0;
+}
+
+#project-description {
+    color: #706f65;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 #projectBtn {
@@ -134,12 +156,26 @@
     letter-spacing: 1px;
     color: #E3E0D3;
     margin-top: 10px;
+    width: 40%;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #projectBtn:hover {
     filter: brightness(100%);
     background-color: #1E1E1E;
     transition: 0.2s;
+}
+
+#project-footer {
+    background-color: #7b7a6fdc;
+    color: #E3E0D3 !important;
+    font-style: italic;
+    min-height: 8vh;
+}
+
+#project-footer-text{
+    font-weight: 300;
 }
 
 @media (max-width: 768px) {

@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ProjectCard from "./ProjectCard";
+import projects from '../data/projects.json'
 
 export default function SimpleSlider() {
     var settings = {
@@ -14,7 +15,7 @@ export default function SimpleSlider() {
         initialSlide: 0,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1200,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -36,24 +37,9 @@ export default function SimpleSlider() {
         <div className="slider-container">
 
             <Slider {...settings}>
-                <div>
-                    <ProjectCard />
-                </div>
-                <div>
-                    <ProjectCard />
-                </div>
-                <div>
-                    <ProjectCard />
-                </div>
-                <div>
-                    <ProjectCard />
-                </div>
-                <div>
-                    <ProjectCard />
-                </div>
-                <div>
-                    <ProjectCard />
-                </div>
+                {projects.map((project) => {
+                    return <ProjectCard key={project.id} id={project.id} title={project.title} description={project.description} skills={project.skills} image={project.image} site={project.site} repo={project.repo} />;
+                })}
             </Slider>
         </div>
     );

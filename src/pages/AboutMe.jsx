@@ -11,7 +11,7 @@ const styles = {
 
 }
 
-function MyWork() {
+function AboutMe() {
 
     return (
         <Container>
@@ -22,4 +22,4 @@ function MyWork() {
     )
 }
 
-export default MyWork;
+export default AboutMe;
