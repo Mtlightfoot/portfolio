@@ -8,15 +8,17 @@ import { LinkContainer } from 'react-router-bootstrap'
 import '../main.css';
 
 const styles = {
-    
+
 }
 
 function MyWork() {
 
     return (
-        <div>
-            
-        </div>
+        <Container>
+
+
+
+        </Container>
     )
 }
 

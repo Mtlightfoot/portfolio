@@ -5,19 +5,21 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { LinkContainer } from 'react-router-bootstrap'
 import '../main.css';
-
-const styles = {
-    
-}
+import CardSlider from '../components/CardSlider'
 
 function Projects() {
 
 
 
     return (
-        <div>
-            
-        </div>
+        <Container id='projectContainer'>
+            <Row id='pageRow'>
+                <Col>
+                    <h1 id='slogan'>My Projects .</h1>
+                    <CardSlider />
+                </Col>
+            </Row>
+        </Container>
     )
 }
 

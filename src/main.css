@@ -42,9 +42,7 @@
     background-color: #1E1E1E;
 }
 
-#homeContainer {}
-
-#homeRow {
+#pageRow {
     min-height: 90vh;
 }
 
@@ -119,7 +117,30 @@
     font-size: 12px;
 }
 
+#projectCard {
+    background-image: url('./endless-constellation.svg');
+    color: #1E1E1E;
+    min-height: 70vh;
+    text-align: center;
+    margin: 10px;
+}
 
+#projectBtn {
+    background-color: #7B7A6F;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #E3E0D3;
+    margin-top: 10px;
+}
+
+#projectBtn:hover {
+    filter: brightness(100%);
+    background-color: #1E1E1E;
+    transition: 0.2s;
+}
 
 @media (max-width: 768px) {
     #slogan {

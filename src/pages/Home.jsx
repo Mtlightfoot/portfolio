@@ -32,8 +32,8 @@ const styles = {
 function Home() {
 
     return (
-        <Container id='homeContainer'>
-            <Row id='homeRow'>
+        <Container>
+            <Row id='pageRow'>
                 <Col md={4} id='leftColumn'>
                     <div style={styles.leftColumn} id='columnBox'>
                         <div id='profileName'>
