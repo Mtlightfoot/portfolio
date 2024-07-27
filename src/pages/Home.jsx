@@ -54,7 +54,7 @@ function Home() {
                         <div id='iconRow'>
                             <a href="mailto:m-lightfoot@hotmail.com"><img id='socialIcons' src="./email-icon.png" alt="An icon representing Email" /></a>
                             <a href="tel:07801963340"><img id='socialIcons' src="./phone-icon.png" alt="An icon representing a phone" /></a>
-                            <a href="www.linkedin.com/in/matthew-lightfoot"><img id='socialIcons' src="./linkedin-icon.png" alt="An icon of the LinkedIn Logo" /></a>
+                            <a href="https://linkedin.com/in/matthew-lightfoot"><img id='socialIcons' src="./linkedin-icon.png" alt="An icon of the LinkedIn Logo" /></a>
                             <a href="https://github.com/Mtlightfoot"><img id='socialIcons' src="./git-icon.png" alt="An icon of the Git Logo" /></a>
                         </div>
 

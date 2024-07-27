@@ -42,6 +42,12 @@
     background-color: #1E1E1E;
 }
 
+.navbar-toggler {
+    color: #E3E0D3 !important;
+    background-color: #7B7A6F !important;
+    border: none;
+}
+
 #pageRow {
     min-height: 90vh;
 }
