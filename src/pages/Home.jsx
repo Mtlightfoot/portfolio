@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 const styles = {
     leftColumn: {
         backgroundColor: "#1E1E1E",
+        marginBottom: "50px"
     },
     rightColumn: {
         display: 'flex',
@@ -48,8 +49,6 @@ function Home() {
                         <div style={styles.profileInfo}>
                             <h6 style={styles.title}><em>Specialisation:</em><br></br>
                                 <span style={styles.subtitle}>Front End Web Development</span></h6>
-                            <h6 style={styles.title}><em>Based in:</em><br></br>
-                                <span style={styles.subtitle}>Rugby, Warwickshire</span></h6>
                         </div>
 
                         <div id='iconRow'>

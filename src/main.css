@@ -75,6 +75,7 @@
 #profilePicture {
     width: 100%;
     border-radius: 35px;
+    margin-bottom: 5px;
 }
 
 #columnBox {
@@ -101,6 +102,7 @@
     letter-spacing: 1px;
     color: #CCCABD;
     margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 #cvBtn:hover {
@@ -176,6 +178,38 @@
 
 #project-footer-text{
     font-weight: 300;
+}
+
+#aboutMe {
+    color: #E3E0D3;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#paragraph {
+    color: #CCCABD;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#aboutMePicture {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#doublePictureBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+#aboutMeSubPicture {
+    width: 49%;
+    border-radius: 5px;
+}
+
+#aboutMeColumn {
+    margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {

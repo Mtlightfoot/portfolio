@@ -12,9 +12,15 @@ const styles = {
 
 function ContactMe() {
     return (
-        <div>
+        <Container>
+            <Row id='pageRow'>
 
-        </div>
+
+
+
+
+            </Row>
+        </Container>
     );
 }
 
