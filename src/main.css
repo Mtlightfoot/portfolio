@@ -182,7 +182,7 @@
     min-height: 8vh;
 }
 
-#project-footer-text{
+#project-footer-text {
     font-weight: 300;
 }
 
@@ -216,6 +216,75 @@
 
 #aboutMeColumn {
     margin-bottom: 50px;
+    min-height: 90%;
+}
+
+#contactMeCard {
+    background-color: #E3E0D3;
+    color: #1E1E1E;
+    text-align: center;
+    border: none;
+    margin-bottom: 50px;
+    height: 97%;
+}
+
+#contactBtn {
+    background-color: #7B7A6F;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #E3E0D3;
+    margin-top: 10px;
+    min-width: 60%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+#contactBtn:hover {
+    filter: brightness(100%);
+    background-color: #1E1E1E;
+    transition: 0.2s;
+}
+
+#contactMeDescription {
+    color: #706f65;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#contactMeText {
+    color: #706f65;
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+#socialIconsAboutMePage {
+    width: 15%;
+    margin-right: 3px;
+}
+
+#socialIconsAboutMePage:hover {
+    filter: brightness(200%);
+}
+
+#profileNameMobile {
+    display: none;
+}
+
+#profileNameMobileText {
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin: 10px;
+    color: #E3E0D3;
 }
 
 @media (max-width: 768px) {
@@ -229,5 +298,31 @@
 
     #columnBox {
         padding: 0px;
+    }
+
+    #profilePicture {
+        width: 90%;
+    }
+
+    #columnBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #profileName {
+        display: none;
+    }
+
+    #profileNameMobile {
+        display: initial;
+    }
+
+    #iconRow {
+        text-align: center;
+    }
+
+    #pageRow {
+        margin: auto;
     }
 }

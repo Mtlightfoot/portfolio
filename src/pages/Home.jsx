@@ -43,6 +43,9 @@ function Home() {
                                 Lightfoot
                             </h2>
                         </div>
+                        <div id='profileNameMobile'>
+                            <h2 id='profileNameMobileText'>Matt Lightfoot</h2>
+                        </div>
 
                         <img id='profilePicture' src="./profile-picture.jpg" alt="A profile picture of Matt Lightfoot" />
 
