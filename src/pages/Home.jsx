@@ -14,8 +14,9 @@ const styles = {
         justifyContent: 'center',
     },
     profileName: {
-        fontWeight: "700",
-        letterSpacing: "4px",
+        fontWeight: "800",
+        letterSpacing: "2px",
+        fontSize: "36px"
     },
     profileInfo: {
         marginTop: '10px',
@@ -38,10 +39,10 @@ function Home() {
                 <Col md={4} id='leftColumn'>
                     <div style={styles.leftColumn} id='columnBox'>
                         <div id='profileName'>
-                            <img src="./frontend-icon.png" alt="An icon representing a frontend web developer" />
                             <h2 style={styles.profileName}>Matt<br></br>
                                 Lightfoot
                             </h2>
+                            <img id='profileIcon' src="./front-end-web-development.svg" alt="An icon representing a frontend web developer" />
                         </div>
                         <div id='profileNameMobile'>
                             <h2 id='profileNameMobileText'>Matt Lightfoot</h2>
