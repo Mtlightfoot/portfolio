@@ -68,7 +68,30 @@ function Home() {
 
                     <div style={styles.rightColumn} id='columnBox'>
                         <div>
-                            <h1 id='slogan'>I'm Matt Lightfoot Front End Web Developer.</h1>
+                            <h1 id='slogan'>I'm Matt Lightfoot Front End Web</h1>
+
+                            <svg viewBox="0 0 100 20">
+                                <defs>
+                                    <linearGradient id="gradient">
+                                        <stop color="#E3E0D3" />
+                                    </linearGradient>
+                                    <pattern id="wave" x="0" y="-3" width="100%" height="100%" patternUnits="userSpaceOnUse">
+                                        <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="#E3E0D3">
+                                            <animateTransform
+                                                attributeName="transform"
+                                                begin="0s"
+                                                dur="1.5s"
+                                                type="translate"
+                                                from="0,0"
+                                                to="40,0"
+                                                repeatCount="indefinite" />
+                                        </path>
+                                    </pattern>
+                                </defs>
+                                <text textAnchor="middle" x="42" y="11" fontSize="15" fill="#7B7A6F" fillOpacity="0.5" id='liquidSlogan'>Developer.</text>
+                                <text textAnchor="middle" x="42" y="11" fontSize="15" fill="url(#wave)" fillOpacity="1" id='liquidSlogan'>Developer.</text>
+                            </svg>
+
                             <h1 id='skills'>HTML - CSS - JavaScript - React.js - JQuery - Node.js - APIs - Bootstrap - Material UI - Wordpress</h1>
                         </div>
                         <div>
