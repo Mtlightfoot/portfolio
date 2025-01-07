@@ -24,7 +24,7 @@
     color: #7B7A6F;
     font-weight: 700;
     letter-spacing: 0.5px;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     border-radius: 3px;
 }
 
@@ -73,8 +73,41 @@
 
 #skills {
     color: #7B7A6F;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.projectSpotlightBox {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    color: #E3E0D3;
+}
+
+.spotlightTitle {
     font-weight: 600;
-    font-size: 40px;
+}
+
+.spotlightSubtitle {
+    font-style: italic;
+}
+
+#spotlightImg {
+    width: 20vw;
+    background-position: center;
+    background-size: cover;
+    padding: 2px;
+    border: 2px solid transparent;
+    border-radius: 2px;
+}
+
+#spotlightImg:hover {
+    border: 2px solid #CCCABD;
+    transition: 0.2s;
+}
+
+#spotlightImg:active {
+    border: 2px solid #706f65;
 }
 
 #profileName {
@@ -112,20 +145,24 @@
 
 #cvBtn {
     background-color: transparent;
-    border: 3px solid #CCCABD;
+    border: 2px solid #CCCABD;
     padding: 10px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
     letter-spacing: 1px;
     color: #CCCABD;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #cvBtn:hover {
     filter: brightness(200%);
     background-color: #1E1E1E;
     transition: 0.2s;
+}
+
+#cvBtn:active {
+    border: 2px solid #706f65;
 }
 
 .footer {
@@ -300,15 +337,11 @@
 
 @media (max-width: 768px) {
     #slogan {
-        font-size: 60px;
+        font-size: 40px;
     }
 
     #skills {
-        font-size: 30px;
-    }
-
-    #columnBox {
-        padding: 0px;
+        font-size: 15px;
     }
 
     #profilePicture {
@@ -318,7 +351,24 @@
     #columnBox {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        padding: 0px;
+    }
+
+    .projectSpotlightBox {
+        margin-right: 5%;
+        margin-bottom: 50px;
+    }
+
+    .spotlightTitle {
+        font-size: 18px;
+    }
+    
+    .spotlightSubtitle {
+       font-size: 12px;
+    }
+
+    #spotlightImg {
+        width: 40vw;
     }
 
     #profileName {

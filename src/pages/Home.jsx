@@ -70,7 +70,7 @@ function Home() {
                         <div>
                             <h1 id='slogan'>I'm Matt Lightfoot Front End Web</h1>
 
-                            <svg viewBox="0 0 100 20">
+                            <svg viewBox="0 0 100 17">
                                 <defs>
                                     <linearGradient id="gradient">
                                         <stop color="#E3E0D3" />
@@ -97,6 +97,14 @@ function Home() {
                         <div>
                             <a href='https://docs.google.com/document/d/1VZxcRjzsV2ZTtb0msm2PhW421wem9iupoWJ9Ka_OO4I/edit'><Button id='cvBtn'>Download CV</Button></a>
                         </div>
+                        <div className='projectSpotlightBox'>
+                            <div>
+                                <h4 className='spotlightTitle'>Project Spotlight</h4>
+                                <h5 className='spotlightSubtitle'>Artist Website</h5>
+                            </div>
+                            <a href="https://artist-website-mtl.netlify.app/"><img src="./artist-website.png" alt="A picture of an Artist website that was created by Matthew Lightfoot" id="spotlightImg"/></a>
+                        </div>
+
                     </div>
 
                 </Col>
