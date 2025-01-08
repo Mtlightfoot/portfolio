@@ -15,7 +15,9 @@ const styles = {
         height: "60px",
     },
     navBar: {
-        minHeight: '10vh',
+        height: '10vh',
+        padding: '0px',
+        textAlign: 'left',
     },
     subtitle: {
         fontStyle: 'italic',
