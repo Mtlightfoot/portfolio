@@ -15,8 +15,9 @@ const styles = {
     },
     profileName: {
         fontWeight: "800",
-        letterSpacing: "2px",
-        fontSize: "36px"
+        letterSpacing: "1px",
+        fontSize: "2rem",
+        marginLeft: '10px',
     },
     profileInfo: {
         marginTop: '10px',
@@ -24,10 +25,12 @@ const styles = {
     },
     title: {
         color: "#E3E0D3",
+        fontWeight: '600',
+        fontSize: '1.5rem',
     },
     subtitle: {
-        fontSize: '20px',
-        fontWeight: '900'
+        fontSize: '1.25rem',
+        fontStyle: 'italic',
     },
 }
 
@@ -39,19 +42,17 @@ function Home() {
                 <Col md={4} id='leftColumn'>
                     <div style={styles.leftColumn} id='columnBox'>
                         <div id='profileName'>
-                            <h2 style={styles.profileName}>Matt<br></br>
-                                Lightfoot
-                            </h2>
+                            <h2 style={styles.profileName}>Welcome to my Portfolio</h2>
                             <img id='profileIcon' src="./front-end-web-development.svg" alt="An icon representing a frontend web developer" />
                         </div>
                         <div id='profileNameMobile'>
-                            <h2 id='profileNameMobileText'>Matt Lightfoot</h2>
+                            <h2 id='profileNameMobileText'>Welcome to my Portfolio</h2>
                         </div>
 
                         <img id='profilePicture' src="./profile-picture.jpg" alt="A profile picture of Matt Lightfoot" />
 
                         <div style={styles.profileInfo}>
-                            <h6 style={styles.title}><em>Specialisation:</em><br></br>
+                            <h6 style={styles.title}>Specialisation:<br></br>
                                 <span style={styles.subtitle}>Front End Web Development</span></h6>
                         </div>
 
