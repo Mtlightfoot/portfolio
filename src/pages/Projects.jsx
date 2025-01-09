@@ -14,7 +14,9 @@ function Projects() {
         <Container id='projectContainer'>
             <Row id='pageRow'>
                 <Col id='project-col'>
-                    <h1 id='slogan'>My Projects <div class="loader"></div></h1>
+                    <h6 id='section-titles'>Projects<br></br></h6>
+
+                    {/* <h1 id='slogan'>My Projects <div class="loader"></div></h1> */}
                     <CardSlider />
                 </Col>
             </Row>

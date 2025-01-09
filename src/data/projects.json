@@ -12,7 +12,7 @@
         "id": 2,
         "title": "Cure My Boredom",
         "description": "This app seamlessly combines local news updates, effortless article searches, a variety of boredom-busting activities, and the excitement of discovering random movies and books, all within a user-friendly interface.",
-        "image": "./1.png",
+        "image": "./cure-my-boredom.png",
         "skills": "React.js - Node.js - Material UI - HTML - CSS - JavaScript - Web Apis",
         "site": "https://curemyboredom.netlify.app/",
         "repo": "https://github.com/Mtlightfoot/cure-my-boredom"

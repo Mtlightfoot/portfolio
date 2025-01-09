@@ -214,7 +214,8 @@
 
 #columnBox,
 #aboutMeColumn,
-#aboutMeColumnText {
+#aboutMeColumnText,
+#project-col {
     padding: 15px 25px;
 }
 
@@ -445,7 +446,17 @@
     #columnBox {
         display: flex;
         flex-direction: column;
+    }
+
+    #columnBox,
+    #aboutMeColumn,
+    #aboutMeColumnText,
+    #project-col {
         padding: 20px 0px;
+    }
+
+    #leftColumn #columnBox {
+        padding-left: 0px;
     }
 
     #leftColumn {
@@ -476,6 +487,11 @@
 
     #profileName {
         display: none;
+    }
+
+    .row>* {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
 
     #pageRow {
