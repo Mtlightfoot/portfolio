@@ -462,6 +462,10 @@
         margin-left: 0px;
     }
 
+    #section-titles {
+        width: 38vw;
+    }
+
     #slogan {
         font-size: 40px;
     }
