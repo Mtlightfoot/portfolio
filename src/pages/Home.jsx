@@ -38,9 +38,7 @@ function Home() {
                 <Col md={4} id='leftColumn'>
 
                     <div id='columnBox'>
-                        <div id='profileNameMobile'>
 
-                        </div>
                         <h6 id='section-titles'>Image<br></br></h6>
 
                         <img id='profilePicture' src="./profile-picture.jpg" alt="A profile picture of Matt Lightfoot" />

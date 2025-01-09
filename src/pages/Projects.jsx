@@ -8,8 +8,6 @@ import CardSlider from '../components/CardSlider'
 
 function Projects() {
 
-
-
     return (
         <Container id='projectContainer'>
             <Row id='pageRow'>

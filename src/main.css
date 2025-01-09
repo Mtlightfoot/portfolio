@@ -48,6 +48,7 @@
     border-top: 1px solid #E9EAE2;
     padding-top: 4px;
     width: 13vw;
+    text-align: left;
 }
 
 #profile-descriptions {
@@ -290,63 +291,67 @@
 }
 
 #projectCard {
-    background-color: #E3E0D3;
+    background-color: #1E1E1E;
     color: #1E1E1E;
-    height: 70vh;
+    height: 75vh;
     text-align: center;
     margin: 10px;
     border: none;
+    border-radius: 0px;
+}
+
+#projectCard #section-titles {
+    margin-bottom: 2px;
 }
 
 #card-img-top {
     height: 30vh;
     background-position: center;
     background-size: cover;
+    border-radius: 0px;
 }
 
 #project-title {
     color: #706f65 !important;
-    font-size: 25px;
-    font-weight: 900;
+    font-size: 18px;
+    font-weight: 700;
     text-align: left;
-    padding: 0;
+    margin-bottom: 10px;
 }
 
 #project-description {
     color: #706f65;
     text-align: left;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 
 #projectBtn {
-    background-color: #7B7A6F;
-    border: none;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: 700;
+    background-color: #CCCABD;
     letter-spacing: 1px;
     color: #E3E0D3;
-    margin-top: 10px;
-    width: 40%;
+    width: 35%;
     margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
+    border: 2px solid #CCCABD;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #1E1E1E;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0px;
+}
+
+#projectBtnContainer {
+    text-align: left;
 }
 
 #projectBtn:hover {
     filter: brightness(100%);
     background-color: #1E1E1E;
-}
-
-#project-footer {
-    background-color: #7b7a6fdc;
-    color: #E3E0D3 !important;
-    font-style: italic;
-    min-height: 8vh;
-}
-
-#project-footer-text {
-    font-weight: 300;
+    color: #E9EAE2;
 }
 
 #aboutMe {
@@ -394,6 +399,10 @@
     margin-bottom: 50px;
     height: 83vh;
     overflow-y: scroll;
+}
+
+#aboutMeColumnText #section-titles {
+    margin-top: 20px;
 }
 
 #contactMeCard {
