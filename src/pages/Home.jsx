@@ -8,10 +8,38 @@ function Home() {
     return (
         <Container>
             <Row id='pageRow'>
+
+                <Col md={4} id='leftColumnMobile'>
+
+                    <div className='mobileDivLeft'>
+                        {/* <h6 id='section-titles'>Image<br></br></h6> */}
+                        <img id='profilePicture' src="./profile-picture.jpg" alt="A profile picture of Matt Lightfoot" />
+                    </div>
+
+                    <div className='mobileDivRight'>
+                        <h6 id='section-titles'>Specialisation<br></br></h6>
+                        <h1 id='profile-descriptions'>Front End Web Development</h1>
+
+                        <h6 id='section-titles'>Based</h6>
+                        <h1 id='profile-descriptions'>Rugby, Warwickshire</h1>
+
+                        <h6 id='section-titles'>Links<br></br></h6>
+
+                        <div id='iconRow'>
+                            <a href="mailto:m-lightfoot@hotmail.com"><img id='socialIcons' src="./email-icon.png" alt="An icon representing Email" /></a>
+                            <a href="tel:07801963340"><img id='socialIcons' src="./phone-icon.png" alt="An icon representing a phone" /></a>
+                            <a href="https://linkedin.com/in/matthew-lightfoot"><img id='socialIcons' src="./linkedin-icon.png" alt="An icon of the LinkedIn Logo" /></a>
+                            <a href="https://github.com/Mtlightfoot"><img id='socialIcons' src="./git-icon.png" alt="An icon of the Git Logo" /></a>
+                        </div>
+
+                    </div>
+                </Col>
+
                 <Col md={4} id='leftColumn'>
 
                     <div id='columnBox'>
                         <div id='profileNameMobile'>
+
                         </div>
                         <h6 id='section-titles'>Image<br></br></h6>
 

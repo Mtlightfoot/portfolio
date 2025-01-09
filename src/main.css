@@ -113,6 +113,34 @@
     height: 83vh;
 }
 
+#leftColumnMobile {
+    display: none;
+}
+
+#leftColumnMobile #profile-descriptions {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+#leftColumnMobile #section-titles {
+    font-size: 7px;
+    margin-bottom: 4px;
+}
+
+#leftColumnMobile #profilePicture {
+    width: 80%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+#leftColumnMobile .mobileDivLeft {
+    width: 40%;
+}
+
+#leftColumnMobile .mobileDivRight {
+    width: 60%;
+}
+
 #rightColumn {
     display: flex;
     flex-direction: column;
@@ -427,6 +455,10 @@
 
 @media (max-width: 768px) {
 
+    #leftColumnMobile {
+        display: flex;
+    }
+
     #navbar-bg {
         margin-left: 0px;
     }
@@ -455,12 +487,12 @@
         padding: 20px 0px;
     }
 
-    #leftColumn #columnBox {
+    #columnBox {
         padding-left: 0px;
     }
 
     #leftColumn {
-        background-color: transparent;
+        display: none;
     }
 
     #aboutMeColumn {
