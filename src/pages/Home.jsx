@@ -3,47 +3,14 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
-const styles = {
-    rightColumn: {
-        display: 'flex',
-        flexDirection: "column",
-        marginBottom: '50px',
-        height: '100%',
-    },
-    profileName: {
-        fontWeight: "800",
-        letterSpacing: "1px",
-        fontSize: "2rem",
-        marginLeft: '10px',
-    },
-    profileInfo: {
-        marginTop: '10px',
-        marginLeft: '6px'
-    },
-    title: {
-        color: "#E3E0D3",
-        fontWeight: '600',
-        fontSize: '1.5rem',
-    },
-    subtitle: {
-        fontSize: '1.25rem',
-        fontStyle: 'italic',
-    },
-}
-
 function Home() {
 
     return (
         <Container>
             <Row id='pageRow'>
                 <Col md={4} id='leftColumn'>
-                    {/* <h6 id='section-titles'>Welcome to my Portfolio</h6> */}
 
                     <div id='columnBox'>
-                        {/* <div id='profileName'>
-                            <h2 style={styles.profileName}>Welcome to my Portfolio</h2>
-                            <img id='profileIcon' src="./front-end-web-development.svg" alt="An icon representing a frontend web developer" />
-                        </div> */}
                         <div id='profileNameMobile'>
                         </div>
                         <h6 id='section-titles'>Image<br></br></h6>
@@ -105,10 +72,13 @@ function Home() {
                         <h6 id='section-titles'>Project Spotlight</h6>
 
                         <div className='projectSpotlightBox'>
-                            <div>
-                                <h5 className='spotlightSubtitle'>Artist Website</h5>
-                            </div>
+                            <h5 className='spotlightSubtitle'>Artist Website</h5>
                             <a href="https://artist-website-mtl.netlify.app/"><img src="./artist-website.png" alt="A picture of an Artist website that was created by Matthew Lightfoot" id="spotlightImg" /></a>
+                        </div>
+
+                        <div className='projectSpotlightBox'>
+                            <h5 className='spotlightSubtitle'>Cure My Boredom</h5>
+                            <a href="https://curemyboredom.netlify.app/"><img src="./cure-my-boredom.png" alt="A picture of a website called Cure My Boredom that was created by Matthew Lightfoot" id="spotlightImg" /></a>
                         </div>
 
                     </div>
