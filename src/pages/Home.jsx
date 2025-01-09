@@ -66,7 +66,7 @@ function Home() {
                             <h1 id='skills'>HTML - CSS - SCSS - JavaScript - React.js - JQuery - Node.js - APIs - Bootstrap - Material UI - Wordpress</h1>
                         </div>
                         <div>
-                            <a href='https://docs.google.com/document/d/1VZxcRjzsV2ZTtb0msm2PhW421wem9iupoWJ9Ka_OO4I/edit'><Button id='cvBtn'>Download CV</Button></a>
+                            <a href='https://docs.google.com/document/d/13mgz3TOaVO2W8qTHTPrqg2s8oNobX358/edit?usp=sharing&ouid=106275054910377850454&rtpof=true&sd=true'><Button id='cvBtn'>Download CV</Button></a>
                         </div>
 
                         <h6 id='section-titles'>Project Spotlight</h6>

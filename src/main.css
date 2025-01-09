@@ -61,6 +61,7 @@
 
 #navbar-bg {
     background-color: transparent !important;
+    margin-left: -21px;
 }
 
 #navLink {
@@ -88,12 +89,14 @@
 
 .navbar-toggler {
     color: #E3E0D3 !important;
-    background-color: #7B7A6F !important;
+    background-color: #E9EAE2 !important;
     border: none;
 }
 
 .navbar-collapse {
     flex-grow: 0 !important;
+    margin-top: 10px;
+    background-color: #1E1E1E;
 }
 
 #pageRow {
@@ -123,15 +126,18 @@
     background-color: #181818;
 }
 
-#rightColumn::-webkit-scrollbar {
+#rightColumn::-webkit-scrollbar,
+#aboutMeColumnText::-webkit-scrollbar {
     width: 2px;
 }
 
-#rightColumn::-webkit-scrollbar-track {
+#rightColumn::-webkit-scrollbar-track,
+#aboutMeColumnText::-webkit-scrollbar-track {
     background: #7B7A6F;
 }
 
-#rightColumn::-webkit-scrollbar-thumb {
+#rightColumn::-webkit-scrollbar-thumb,
+#aboutMeColumnText::-webkit-scrollbar-thumb {
     background: #E9EAE2;
 }
 
@@ -198,7 +204,6 @@
 
 #profilePicture {
     width: 90%;
-    /* border-radius: 15px; */
     margin-bottom: 20px;
     margin-left: 6px;
 }
@@ -207,7 +212,9 @@
     width: 25%;
 }
 
-#columnBox {
+#columnBox,
+#aboutMeColumn,
+#aboutMeColumnText {
     padding: 15px 25px;
 }
 
@@ -316,19 +323,28 @@
 
 #aboutMe {
     color: #E3E0D3;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 40px;
+    letter-spacing: -.02em;
+    line-height: 1.1;
+    color: #E3E0D3;
+    margin-bottom: 20px;
 }
 
 #paragraph {
-    color: #CCCABD;
-    font-weight: 600;
+    color: #7B7A6F;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#paragraph:hover {
+    color: #E3E0D3;
     font-size: 16px;
 }
 
 #aboutMePicture {
     width: 100%;
-    /* border-radius: 5px; */
     margin-bottom: 10px;
 }
 
@@ -339,12 +355,17 @@
 
 #aboutMeSubPicture {
     width: 49%;
-    border-radius: 5px;
 }
 
 #aboutMeColumn {
     margin-bottom: 50px;
-    min-height: 90%;
+    height: 83vh;
+}
+
+#aboutMeColumnText {
+    margin-bottom: 50px;
+    height: 83vh;
+    overflow-y: scroll;
 }
 
 #contactMeCard {
@@ -404,6 +425,11 @@
 }
 
 @media (max-width: 768px) {
+
+    #navbar-bg {
+        margin-left: 0px;
+    }
+
     #slogan {
         font-size: 40px;
     }
@@ -419,7 +445,16 @@
     #columnBox {
         display: flex;
         flex-direction: column;
-        /* padding: 0px; */
+        padding: 20px 0px;
+    }
+
+    #leftColumn {
+        background-color: transparent;
+    }
+
+    #aboutMeColumn {
+        margin-bottom: 0px;
+        height: 100%;
     }
 
     .projectSpotlightBox {

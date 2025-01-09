@@ -17,7 +17,6 @@ const styles = {
     navBar: {
         height: '10vh',
         textAlign: 'left',
-        marginLeft: '-21px'
     },
     subtitle: {
         fontStyle: 'italic',
