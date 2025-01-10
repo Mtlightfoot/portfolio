@@ -529,7 +529,7 @@
         margin-bottom: 3svh;
         height: 14svh;
         padding: 0px;
-        background-image: url('./matt-landscape.jpg');
+        background-image: url('/matt-landscape.jpg');
         background-position: center;
         background-size: cover;
         display: flex;
