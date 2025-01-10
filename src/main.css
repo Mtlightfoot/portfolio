@@ -29,7 +29,7 @@
 
 #webpage {
     background-color: #181818;
-    height: 100vh;
+    height: 100svh;
 }
 
 #main-title {
@@ -101,7 +101,7 @@
 }
 
 #pageRow {
-    min-height: 90vh;
+    min-height: 90svh;
     background-color: #181818;
 }
 
@@ -111,11 +111,12 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
-    height: 83vh;
+    height: 83svh;
 }
 
 #leftColumnMobile {
     display: none;
+    height: 17svh;
 }
 
 #leftColumnMobile #profile-descriptions {
@@ -147,7 +148,7 @@
     flex-direction: column;
     overflow-y: scroll;
     margin-bottom: 50px;
-    height: 83vh;
+    height: 83svh;
     background-color: #181818;
 }
 
@@ -293,7 +294,7 @@
 #projectCard {
     background-color: #1E1E1E;
     color: #1E1E1E;
-    height: 75vh;
+    height: 75svh;
     text-align: center;
     margin: 10px;
     border: none;
@@ -305,7 +306,7 @@
 }
 
 #card-img-top {
-    height: 30vh;
+    height: 30svh;
     background-position: center;
     background-size: cover;
     border-radius: 0px;
@@ -364,6 +365,10 @@
     margin-bottom: 20px;
 }
 
+#aboutMeColumnMobile {
+    display: none;
+}
+
 #paragraph {
     color: #7B7A6F;
     font-weight: 500;
@@ -392,12 +397,12 @@
 
 #aboutMeColumn {
     margin-bottom: 50px;
-    height: 83vh;
+    height: 83svh;
 }
 
 #aboutMeColumnText {
     margin-bottom: 50px;
-    height: 83vh;
+    height: 83svh;
     overflow-y: scroll;
 }
 
@@ -507,9 +512,49 @@
         display: none;
     }
 
+    #rightColumn {
+        height: 68svh;
+        margin-bottom: 5svh;
+    }
+
+    #navbar-bg {
+        height: 10svh !important;
+    }
+
+    #aboutMe {
+        font-size: 30px;
+    }
+
+    #aboutMeColumnMobile {
+        margin-bottom: 3svh;
+        height: 14svh;
+        padding: 0px;
+        background-image: url('./matt-landscape.jpg');
+        background-position: center;
+        background-size: cover;
+        display: flex;
+    }
+
     #aboutMeColumn {
-        margin-bottom: 0px;
-        height: 100%;
+        display: none;
+    }
+
+    #aboutMeColumnText {
+        height: 68svh;
+        margin-bottom: 5svh;
+        padding: 0px;
+    }
+
+    #projectContainer {
+        height: 80svh;
+    }
+
+    #project-col {
+        padding: 0px;
+    }
+
+    .slider-container {
+        padding: 0px 20px;
     }
 
     .projectSpotlightBox {

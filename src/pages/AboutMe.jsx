@@ -19,6 +19,9 @@ function AboutMe() {
                 <Col md={12}>
                     {/* <h1 id='slogan'>About Me <div class="loader"></div></h1> */}
                 </Col>
+                <Col id='aboutMeColumnMobile' md={6}>
+                    {/* <img id='aboutMePictureMobile' src="./matt-landscape.jpg" alt="A picture of a man sitting on a rock with the sea in the background" /> */}
+                </Col>
                 <Col id='aboutMeColumn' md={6}>
                     <h6 id='section-titles'>Images</h6>
                     <img id='aboutMePicture' src="./matt-landscape.jpg" alt="A picture of a man sitting on a rock with the sea in the background" />

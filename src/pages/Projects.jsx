@@ -5,7 +5,6 @@ import '../main.css';
 import '../eye.css'
 import CardSlider from '../components/CardSlider'
 
-
 function Projects() {
 
     return (
